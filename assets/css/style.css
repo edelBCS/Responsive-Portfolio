@@ -212,12 +212,39 @@ footer{
         float: left; 
         margin: 20px;   
     }
+
+
+    .project-img{
+        width: 300px;
+    }
+
+    .project-text{
+        top: 75%;
+        width: 50px;
+    }
+
+    .contact-width{
+        width: -webkit-fill-available;
+    }
     
 
 }
 
 @media screen and (max-width: 768px) {
     
+
+    .project-img{
+        width: 250px;
+    }
+
+    .project-text{
+        top: 75%;        
+        padding: 15px 100px 15px 100px;
+    }
+
+    .contact-width{
+        width: -webkit-fill-available;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -256,7 +283,7 @@ r
         width: auto;
     }
 
-    sections{
+    .sections{
         width: auto;
     }
 
@@ -267,7 +294,18 @@ r
         width: auto;
     }
 
+    .project-img{
+        width: 400px;
+    }
 
+    .project-text{
+        top: 75%; 
+        width: 200px;
+    }
+
+    .contact-width{
+        width: -webkit-fill-available;
+    }
 }
 
   
