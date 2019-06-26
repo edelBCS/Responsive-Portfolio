@@ -278,6 +278,10 @@ r
 
     }
 
+    .nav-link{
+        float: left;
+    }
+
     .main{
         margin-top: 200px;
         width: auto;
@@ -285,13 +289,15 @@ r
 
     .sections{
         width: auto;
+        margin: auto;
     }
 
     #my-image{
         position: static;
         float: none;
         margin: auto;
-        width: auto;
+        width: 80vw;
+        height: auto;
     }
 
     .project-img{
